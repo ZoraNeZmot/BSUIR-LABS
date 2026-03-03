@@ -1,0 +1,78 @@
+# Executables
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Build folders
+[Bb]in/
+[Oo]bj/
+
+# IDE - VS Code
+.vscode/
+*.code-workspace
+
+# Compiled source files
+*.com
+*.class
+*.dll
+*.so
+*.dylib
+*.o
+*.obj
+
+# Packages
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Visual Studio files
+.vs/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Config files (common ones to ignore)
+appsettings.*.json
+secrets.json
+*.config.user
+*.config.user.json
+
+# User-specific config files
+*.user
+*.user.json
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Project-specific config files
+*.pidb
+*.svclog
+*.scc
+
+# Backup files
+*.bak
+*.old
+*.orig

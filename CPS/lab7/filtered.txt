@@ -1,0 +1,5 @@
+1 Ivanov 8.600000
+3 Sidorov 9.200000
+4 Smirnov 8.200000
+5 Kuznetsov 8.600000
+6 Orlov 9.000000

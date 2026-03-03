@@ -1,0 +1,6 @@
+1 Ivanov 9 8 10 9 7
+2 Petrov 5 6 4 5 6
+3 Sidorov 10 9 9 10 8
+4 Smirnov 8 8 9 8 8
+5 Kuznetsov 3 10 10 10 10
+6 Orlov 9 9 9 9 9
