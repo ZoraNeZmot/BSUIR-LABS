@@ -1,0 +1,15 @@
+{
+  "typeName": "Bicycle",
+  "category": "Land",
+  "summary": "[%s] %s %s (%s)",
+  "summaryFields": ["TypeName", "Manufacturer", "Model", "Year"],
+  "fields": [
+    {"name": "ID",            "label": "Identifier",      "kind": "string"},
+    {"name": "Manufacturer",  "label": "Manufacturer",    "kind": "string", "default": "Trek"},
+    {"name": "Model",         "label": "Model",           "kind": "string"},
+    {"name": "Year",          "label": "Year",            "kind": "int",    "default": "2024"},
+    {"name": "GearCount",     "label": "Number of gears", "kind": "int",    "default": "21"},
+    {"name": "FrameMaterial", "label": "Frame material",  "kind": "string", "default": "Aluminum"},
+    {"name": "IsElectric",    "label": "Electric",        "kind": "bool",   "default": "false"}
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "aes-strong",
+  "name": "AES-256 (strong)",
+  "description": "Real AES-256 in CFB mode. Use this one when you actually want confidentiality.",
+  "algorithm": "aes-cfb",
+  "parameters": {
+    "passphrase": "change-me-please"
+  },
+  "enabled": false
+}

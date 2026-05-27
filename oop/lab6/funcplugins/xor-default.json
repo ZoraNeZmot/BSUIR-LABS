@@ -1,0 +1,10 @@
+{
+  "id": "xor-default",
+  "name": "XOR (default key)",
+  "description": "Repeating-key XOR with a hard-coded demo key. Enable to make the file unreadable in a text editor.",
+  "algorithm": "xor",
+  "parameters": {
+    "key": "lab5-secret"
+  },
+  "enabled": false
+}

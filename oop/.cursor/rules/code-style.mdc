@@ -1,0 +1,41 @@
+---
+description: Golang rules
+globs: **/*.go
+alwaysApply: true
+---
+# Go rules
+
+## Code Style Rules
+### Naming
+- **Packages**: lowercase, single word (e.g., `handler`, `service`)
+- **Exported**: PascalCase (e.g., `CreateUser`)
+- **Unexported**: camelCase (e.g., `parseRequest`)
+- **Constants**: PascalCase or ALL_CAPS for globals
+- **Interfaces**: single method → method name + "er" (e.g., `Reader`)
+
+### Formatting
+- Max line length: 120 characters
+- Use tabs for indentation
+- Group imports: stdlib → external → internal
+
+### Error Handling
+```go
+// Always handle errors
+result, err := doSomething()
+if err != nil {
+    return fmt.Errorf("failed to do something: %w", err)
+}
+```
+
+## File Structure
+.
+├── cmd/
+│ └── app/
+│   └── main.go
+├── internal/
+│ ├── Structs/
+├── pkg/
+│ └── utils/
+├── scripts/
+├── go.mod
+├── go.sum

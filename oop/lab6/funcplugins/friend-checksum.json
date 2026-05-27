@@ -1,0 +1,10 @@
+{
+  "id": "friend-checksum",
+  "name": "Friend's checksum (adapted)",
+  "description": "Adapter around a friend's variant-5 library. Stores SHA-256 / MD5 of the payload and verifies it on load.",
+  "algorithm": "friend-checksum",
+  "parameters": {
+    "algorithm": "sha256"
+  },
+  "enabled": false
+}

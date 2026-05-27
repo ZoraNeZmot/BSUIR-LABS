@@ -1,0 +1,10 @@
+{
+  "id": "caesar-7",
+  "name": "Caesar shift +7",
+  "description": "Byte-level Caesar shift. Use as a quick obfuscation step before XOR/AES.",
+  "algorithm": "caesar",
+  "parameters": {
+    "shift": "7"
+  },
+  "enabled": false
+}

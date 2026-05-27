@@ -1,0 +1,16 @@
+{
+  "typeName": "Submarine",
+  "category": "Water",
+  "summary": "[%s] %s %s (%s)",
+  "summaryFields": ["TypeName", "Manufacturer", "Model", "Year"],
+  "fields": [
+    {"name": "ID",              "label": "Identifier",       "kind": "string"},
+    {"name": "Manufacturer",    "label": "Manufacturer",     "kind": "string"},
+    {"name": "Model",           "label": "Model",            "kind": "string"},
+    {"name": "Year",            "label": "Year",             "kind": "int",    "default": "2024"},
+    {"name": "MaxDepthM",       "label": "Max depth, m",     "kind": "int",    "default": "300"},
+    {"name": "DisplacementTons","label": "Displacement, t",  "kind": "float",  "default": "0"},
+    {"name": "IsNuclear",       "label": "Nuclear-powered",  "kind": "bool",   "default": "false"},
+    {"name": "CrewSize",        "label": "Crew size",        "kind": "int",    "default": "30"}
+  ]
+}
